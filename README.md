@@ -1,4 +1,4 @@
-# Sample Agentic AI Python Application with Amazon CloudWatch
+## Observing Agentic AI workloads using Amazon CloudWatch
 
 This repository contains the sample code and resources for the AWS blog post **"Observing Agentic AI workloads using Amazon CloudWatch"**.
 
