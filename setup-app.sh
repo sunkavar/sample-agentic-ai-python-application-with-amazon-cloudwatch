@@ -3,7 +3,7 @@
 # Usage: ./setup-app.sh <github-repo-url>
 set -e
 
-GITHUB_REPO_URL=${1:-"https://github.com/sunkavar/agentic-ai-sample-python-app-cloudwatch-monitoring.git"}
+GITHUB_REPO_URL=${1:-"https://github.com/aws-samples/sample-agentic-ai-python-application-with-amazon-cloudwatch.git"}
 APP_DIR="/home/ec2-user/agentic-ai-app"
 LOG_FILE="/var/log/app-setup.log"
 
