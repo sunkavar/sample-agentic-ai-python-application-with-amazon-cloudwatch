@@ -47,7 +47,7 @@ Parameters:
   GitHubRepoUrl:
     Type: String
     Description: GitHub repository URL for the application
-    Default: 'https://github.com/sunkavar/agentic-ai-sample-python-app-cloudwatch-monitoring.git'
+    Default: 'https://github.com/aws-samples/sample-agentic-ai-python-application-with-amazon-cloudwatch.git'
     AllowedPattern: '^https://github\.com/[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+\.git$'
     ConstraintDescription: Must be a valid GitHub repository URL
   
@@ -164,7 +164,7 @@ Resources:
                     
           # Download and run the setup script
           cd /home/ec2-user
-          wget https://raw.githubusercontent.com/sunkavar/agentic-ai-sample-python-app-cloudwatch-monitoring/main/setup-app.sh -O setup-app.sh
+          wget https://raw.githubusercontent.com/aws-samples/sample-agentic-ai-python-application-with-amazon-cloudwatch/main/setup-app.sh -O setup-app.sh
           chmod +x setup-app.sh
           ./setup-app.sh "${GitHubRepoUrl}"
       Tags:
