@@ -10,11 +10,11 @@ This sample demonstrates how to implement comprehensive observability for agenti
 
 ## Contents
 
-- [app.py](/app.py) - Main weather agent application with OpenTelemetry tracing
+- [app.py](/app.py) - Main weather forecaster agent application with OpenTelemetry tracing
 - [metrics_utils.py](/metrics_utils.py) - Utilities for collecting and formatting metrics in EMF format
-- [CW-AgentConfig.json](/CW-AgentConfig.json) - CloudWatch Agent configuration for log and metric collection
+- [CW-AgentConfig.json](/CW-AgentConfig.json) - CloudWatch Agent configuration file for telemetry collection
 - [ec2-deployment.yaml](/ec2-deployment.yaml) - CloudFormation template for automated EC2 deployment
-- [setup-app.sh](/setup-app.sh) - Automated setup script for EC2 instances
+- [setup-app.sh](/setup-app.sh) - Setup script to deploy weather forecaster agent and configuring the Cloudwatch agent
 
 ## Deployment
 
