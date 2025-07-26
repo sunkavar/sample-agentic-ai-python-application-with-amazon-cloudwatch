@@ -94,7 +94,7 @@ log "All required application files found"
 
 # Install required packages based on the application imports
 log "Installing strands and related packages..."
-pip install strands-agents
+pip install strands-agents==0.1.9
 pip install strands-agents-tools
 
 log "Installing OpenTelemetry packages..."
