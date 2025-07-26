@@ -1,4 +1,4 @@
-## Observing Agentic AI workloads using Amazon CloudWatch
+## Observing Agentic AI workloads using Amazon CloudWatch agent
 
 This repository contains the sample code and resources for the AWS blog post [Observing Agentic AI workloads using Amazon CloudWatch agent](http://aws.amazon.com/blogs/mt/observing-agentic-ai-workloads-using-amazon-cloudwatch/).
 
